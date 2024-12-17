@@ -1,0 +1,17 @@
+package com.ABC_Company.order.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class OrderDTO {
+    private int id;
+    private int itemId;
+    private int amount;
+    private String orderDate;
+
+
+}
